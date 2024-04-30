@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/eventForm.css">
+    <title>SkidCentral</title>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar">
+            <div id="form_header">
+                <h1>SKIDMORE CENTRAL</h1>
+                <h2>Add you event!</h2>
+            </div>
+            <div id="horizontalLine"></div>
+            <p>
+                Hello!
+            </p>
+        </div>
+        <div id="event-form">
+
+            <div id="form_container">
+                <div id="addEventInfo">
+                    <form action="/submitEventInfo" method="POST" enctype="multipart/form-data">
+                        <label for="organizationName">Organization Name:</label>
+                        <input type="text" id="organizationName" name="organizationName" placeholder="Enter organization name" oninput="updatePreview()" required>
+                
+                        <label for="organizationProfilePicture">Organization Profile Picture:</label>
+                        <input type="text" id="organizationProfilePicture" name="organizationProfilePicture" placeholder="Enter URL or upload a file">
+                
+                        <label for="name">Event Name:</label>
+                        <input type="text" id="name" name="name" oninput="updatePreview()" required>
+                
+                        <label for="description">Description:</label>
+                        <textarea id="description" name="description" oninput="updatePreview()" required></textarea>
+                
+                        <label for="location">Location:</label>
+                        <input type="text" id="location" name="location" placeholder="Enter location" oninput="updatePreview()">
+                
+                        <label for="startsOn">Starts On:</label>
+                        <input type="datetime-local" id="startsOn" name="startsOn" placeholder="YYYY-MM-DDTHH:MM" oninput="updatePreview()">
+                
+                        <label for="endsOn">Ends On:</label>
+                        <input type="datetime-local" id="endsOn" name="endsOn" placeholder="YYYY-MM-DDTHH:MM" oninput="updatePreview()">
+                
+                        <label for="imagePath">Event Image:</label>
+                        <input type="file" id="imagePath" name="imagePath" accept="image/*" onchange="updateImagePreview()">
+                        
+                
+                        <button type="submit">Submit Event</button>
+                    </form>
+                </div>
+                <div id="EventDisplay">
+                    <h2>Event Preview</h2>
+                        <p><strong>Organization:</strong> <span id="previewOrganizationName"></span></p>
+                        <p><strong>Event Name:</strong> <span id="previewEventName"></span></p>
+                        <img id="imagePreview" src="" alt="Event Image Preview" style="max-width: 100%; height: auto;">
+                        <p><strong>Description:</strong> <span id="previewDescription"></span></p>
+                        <p><strong>Location:</strong> <span id="previewLocation"></span></p>
+                        <p><strong>Starts On:</strong> <span id="previewStartsOn"></span></p>
+                        <p><strong>Ends On:</strong> <span id="previewEndsOn"></span></p>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="index.js" type="module"></script>
+    <script src="js/eventFormDynamicInput.js" type="module"></script>
+</body>
+</html>

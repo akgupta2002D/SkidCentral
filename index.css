@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar{
+    flex: 1 1 17%;
+    height: 100vh;
+    background-color: #006a52;
+}   
+
+#event-form{
+    flex: 1 1 83%;
+    border: 2px solid grey;
+}
+
+#form_header{
+    text-align: center;
+    padding: 10px;
+    margin: 10px ;
+}
+
+#horizontalLine{
+    border: 2px solid grey;
+    margin: 10px;
+}
