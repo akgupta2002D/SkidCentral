@@ -23,35 +23,35 @@
 
             <div id="form_container">
                 <div id="addEventInfo">
-                    <form action="/submitEventInfo" method="POST" enctype="multipart/form-data">
+                    <form id="eventForm">
                         <label for="organizationName">Organization Name:</label>
-                        <input type="text" id="organizationName" name="organizationName" placeholder="Enter organization name" oninput="updatePreview()" required>
+                        <input type="text" id="organizationName" name="organizationName" placeholder="Enter organization name"  required>
                 
                         <label for="organizationProfilePicture">Organization Profile Picture:</label>
                         <input type="text" id="organizationProfilePicture" name="organizationProfilePicture" placeholder="Enter URL or upload a file">
                 
                         <label for="name">Event Name:</label>
-                        <input type="text" id="name" name="name" oninput="updatePreview()" required>
+                        <input type="text" id="name" name="name"  required>
                 
                         <label for="description">Description:</label>
-                        <textarea id="description" name="description" oninput="updatePreview()" required></textarea>
+                        <textarea id="description" name="description"  required></textarea>
                 
                         <label for="location">Location:</label>
-                        <input type="text" id="location" name="location" placeholder="Enter location" oninput="updatePreview()">
+                        <input type="text" id="location" name="location" placeholder="Enter location" >
                 
                         <label for="startsOn">Starts On:</label>
-                        <input type="datetime-local" id="startsOn" name="startsOn" placeholder="YYYY-MM-DDTHH:MM" oninput="updatePreview()">
+                        <input type="datetime-local" id="startsOn" name="startsOn" placeholder="YYYY-MM-DDTHH:MM" >
                 
                         <label for="endsOn">Ends On:</label>
-                        <input type="datetime-local" id="endsOn" name="endsOn" placeholder="YYYY-MM-DDTHH:MM" oninput="updatePreview()">
+                        <input type="datetime-local" id="endsOn" name="endsOn" placeholder="YYYY-MM-DDTHH:MM" >
                 
                         <label for="imagePath">Event Image:</label>
-                        <input type="file" id="imagePath" name="imagePath" accept="image/*" onchange="updateImagePreview()">
-                        
+                        <input type="file" id="imagePath" name="imagePath" accept="image/*" >
                 
-                        <button type="submit">Submit Event</button>
+                        <button id="eventSubmitButton" type="button" >Submit Event</button>
                     </form>
                 </div>
+                
                 <div id="EventDisplay">
                     <h2>Event Preview</h2>
                         <p><strong>Organization:</strong> <span id="previewOrganizationName"></span></p>
@@ -69,5 +69,6 @@
     </div>
     <script src="index.js" type="module"></script>
     <script src="js/eventFormDynamicInput.js" type="module"></script>
+    <script src="js/firebaseStarter.js" type="module"></script>
 </body>
 </html>
