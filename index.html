@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/eventForm.css">
     <title>SkidCentral</title>
+    <link rel="stylesheet" href="css/eventsPreview.css">
 </head>
 <body>
     <div class="container">
@@ -54,13 +55,13 @@
                 
                 <div id="EventDisplay">
                     <h2>Event Preview</h2>
-                        <p><strong>Organization:</strong> <span id="previewOrganizationName"></span></p>
-                        <p><strong>Event Name:</strong> <span id="previewEventName"></span></p>
-                        <img id="imagePreview" src="" alt="Event Image Preview" style="max-width: 100%; height: auto;">
-                        <p><strong>Description:</strong> <span id="previewDescription"></span></p>
-                        <p><strong>Location:</strong> <span id="previewLocation"></span></p>
-                        <p><strong>Starts On:</strong> <span id="previewStartsOn"></span></p>
-                        <p><strong>Ends On:</strong> <span id="previewEndsOn"></span></p>
+                        <p> <span id="previewOrganizationName"></span></p>
+                        <p><span id="previewEventName"></span></p>
+                        <img id="imagePreview" src="" alt="Event Image Preview" style="max-width: 80%; height: auto;">
+                        <p><em>Description:</em> <span id="previewDescription"></span></p>
+                        <p><em>Location:</em> <span id="previewLocation"></span></p>
+                        <p><em>Starts On:</em> <span id="previewStartsOn"></span></p>
+                        <p><em>Ends On:</em> <span id="previewEndsOn"></span></p>
 
                 </div>
             </div>
@@ -70,5 +71,6 @@
     <script src="index.js" type="module"></script>
     <script src="js/eventFormDynamicInput.js" type="module"></script>
     <script src="js/firebaseStarter.js" type="module"></script>
+    <script src="js/highestColorFrequency.js" type="module"></script>
 </body>
 </html>

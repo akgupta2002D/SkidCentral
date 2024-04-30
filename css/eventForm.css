@@ -7,7 +7,7 @@
 
 #addEventInfo, #EventDisplay{
     flex: 1 1 50%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     margin: 5px;
 }
 
@@ -27,7 +27,7 @@ input, textarea {
     box-sizing: border-box;
 }
 button {
-    background-color: #4CAF50;
+    background-color: #006a52;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
