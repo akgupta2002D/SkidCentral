@@ -1,0 +1,8 @@
+This document records my thought process and information about everything we have done so far.
+
+Date: 29th April, 2024
+    I started building this program. It is a place for users to upload and view events at Skidmore College.
+    The Structure --- index.html -- Hosts the main page for now
+                    --- index.css and index.js for the main page.
+
+                    

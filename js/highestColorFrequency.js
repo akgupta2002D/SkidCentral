@@ -41,6 +41,7 @@ document.getElementById('imagePath').addEventListener('change', function() {
                 const rgbParts = maxColor.split(',');
                 const hexColor = rgbToHex(parseInt(rgbParts[0]), parseInt(rgbParts[1]), parseInt(rgbParts[2]));
                 document.getElementById('EventDisplay').style.backgroundColor = hexColor;
+                document.getElementById('EventDisplay').style.color = getTextColor(hexColor);
                 console.log('Most frequent color in hex:', hexColor);
             };
         };
@@ -52,4 +53,13 @@ document.getElementById('imagePath').addEventListener('change', function() {
 
 function rgbToHex(r, g, b) {
     return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
+
+// Function to determine if text color should be white or black based on the background color
+function getTextColor(hexColor) {
+    const r = parseInt(hexColor.substr(1, 2), 16);
+    const g = parseInt(hexColor.substr(3, 2), 16);
+    const b = parseInt(hexColor.substr(5, 2), 16);
+    const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b; // ITU-R BT.709
+    return luminance < 128 ? '#FFFFFF' : '#000000'; // light or dark text
 }

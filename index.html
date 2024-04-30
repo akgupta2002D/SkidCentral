@@ -1,4 +1,19 @@
 <!DOCTYPE html>
+<!-- 
+    This is the HTML document for the SkidCentral event creation page. 
+    It includes a form for users to add new events, which are then displayed on a preview section.
+    The page uses several CSS stylesheets and JavaScript modules to enhance its functionality.
+    Links to CSS files:
+    1. index.css - Main stylesheet for basic styling.
+    2. css/eventForm.css - Specific styles for the event form.
+    3. css/eventsPreview.css - Styles for the event preview section.
+    Scripts included:
+    1. index.js - Main JavaScript file.
+    2. js/eventFormDynamicInput.js - Handles dynamic inputs in the form.
+    3. js/firebaseStarter.js - Initializes Firebase connection.
+    4. js/highestColorFrequency.js - Analyzes color frequency (possibly used for themes).
+-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,64 +25,80 @@
 </head>
 <body>
     <div class="container">
+        <!-- Navigation bar section -->
         <div id="navbar">
+            <!-- Header displaying the name of the portal and the purpose of the page -->
             <div id="form_header">
                 <h1>SKIDMORE CENTRAL</h1>
-                <h2>Add you event!</h2>
+                <h2>Add your event!</h2>
             </div>
+            <!-- Horizontal line for visual separation -->
             <div id="horizontalLine"></div>
+            <!-- Welcome message -->
             <p>
                 Hello!
             </p>
         </div>
-        <div id="event-form">
 
+        <!-- Main event form container -->
+        <div id="event-form">
             <div id="form_container">
+                <!-- Event information section -->
                 <div id="addEventInfo">
                     <form id="eventForm">
+                        <!-- Input for organization name -->
                         <label for="organizationName">Organization Name:</label>
-                        <input type="text" id="organizationName" name="organizationName" placeholder="Enter organization name"  required>
+                        <input type="text" id="organizationName" name="organizationName" placeholder="Enter organization name" required>
                 
+                        <!-- Input for uploading or entering a URL for the organization's profile picture -->
                         <label for="organizationProfilePicture">Organization Profile Picture:</label>
                         <input type="text" id="organizationProfilePicture" name="organizationProfilePicture" placeholder="Enter URL or upload a file">
                 
+                        <!-- Input for event name -->
                         <label for="name">Event Name:</label>
-                        <input type="text" id="name" name="name"  required>
+                        <input type="text" id="name" name="name" required>
                 
+                        <!-- Textarea for detailed event description -->
                         <label for="description">Description:</label>
-                        <textarea id="description" name="description"  required></textarea>
+                        <textarea id="description" name="description" required></textarea>
                 
+                        <!-- Input for event location -->
                         <label for="location">Location:</label>
-                        <input type="text" id="location" name="location" placeholder="Enter location" >
+                        <input type="text" id="location" name="location" placeholder="Enter location">
                 
+                        <!-- Input fields for start and end time of the event -->
                         <label for="startsOn">Starts On:</label>
-                        <input type="datetime-local" id="startsOn" name="startsOn" placeholder="YYYY-MM-DDTHH:MM" >
+                        <input type="datetime-local" id="startsOn" name="startsOn">
                 
                         <label for="endsOn">Ends On:</label>
-                        <input type="datetime-local" id="endsOn" name="endsOn" placeholder="YYYY-MM-DDTHH:MM" >
+                        <input type="datetime-local" id="endsOn" name="endsOn">
                 
+                        <!-- File input for event image -->
                         <label for="imagePath">Event Image:</label>
-                        <input type="file" id="imagePath" name="imagePath" accept="image/*" >
+                        <input type="file" id="imagePath" name="imagePath" accept="image/*">
                 
-                        <button id="eventSubmitButton" type="button" >Submit Event</button>
+                        <!-- Submit button for the form -->
+                        <button id="eventSubmitButton" type="button">Submit Event</button>
                     </form>
                 </div>
                 
+                <!-- Event preview section -->
                 <div id="EventDisplay">
                     <h2>Event Preview</h2>
-                        <p> <span id="previewOrganizationName"></span></p>
-                        <p><span id="previewEventName"></span></p>
-                        <img id="imagePreview" src="" alt="Event Image Preview" style="max-width: 80%; height: auto;">
-                        <p><em>Description:</em> <span id="previewDescription"></span></p>
-                        <p><em>Location:</em> <span id="previewLocation"></span></p>
-                        <p><em>Starts On:</em> <span id="previewStartsOn"></span></p>
-                        <p><em>Ends On:</em> <span id="previewEndsOn"></span></p>
-
+                    <!-- Dynamic placeholders for the event preview -->
+                    <p> <span id="previewOrganizationName"></span></p>
+                    <p><span id="previewEventName"></span></p>
+                    <img id="imagePreview" src="" alt="Event Image Preview" style="max-width: 80%; height: auto;">
+                    <p><em>Description:</em> <span id="previewDescription"></span></p>
+                    <p><em>Location:</em> <span id="previewLocation"></span></p>
+                    <p><em>Starts On:</em> <span id="previewStartsOn"></span></p>
+                    <p><em>Ends On:</em> <span id="previewEndsOn"></span></p>
                 </div>
             </div>
-            
         </div>
     </div>
+
+    <!-- Scripts for handling form inputs and backend integration -->
     <script src="index.js" type="module"></script>
     <script src="js/eventFormDynamicInput.js" type="module"></script>
     <script src="js/firebaseStarter.js" type="module"></script>
