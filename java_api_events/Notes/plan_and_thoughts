@@ -1,0 +1,16 @@
+April 13th:
+
+We have successfully parsed the events and we are being able to display them in swing.
+Things to do:
+	Edit the text
+	Add a background
+	Make default image to work
+	Overall Animation and Decor
+
+
+
+
+Problem 1:
+	Only the thumbnail of the events posters are avialable in to parse from the website.
+	How to get the relative path images.
+	

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src-test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jsoup-1.17.2.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ankit/Desktop/ML-Semantic/semacleMLapp/lib/log4j-api-2.22.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ankit/Desktop/ML-Semantic/semacleMLapp/lib/log4j-core-2.22.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ankit/Desktop/ML-Semantic/semacleMLapp/lib/log4j-slf4j2-impl-2.22.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

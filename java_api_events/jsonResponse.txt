@@ -1,0 +1,373 @@
+{
+  "@odata.count": 6341.0,
+  "@search.facets": {
+    "Theme": [
+      {
+        "type": 0.0,
+        "value": "Arts",
+        "count": 849.0
+      },
+      {
+        "type": 0.0,
+        "value": "Athletics",
+        "count": 1064.0
+      },
+      {
+        "type": 0.0,
+        "value": "CommunityService",
+        "count": 333.0
+      },
+      {
+        "type": 0.0,
+        "value": "Cultural",
+        "count": 430.0
+      },
+      {
+        "type": 0.0,
+        "value": "Fundraising",
+        "count": 104.0
+      },
+      {
+        "type": 0.0,
+        "value": "GroupBusiness",
+        "count": 51.0
+      },
+      {
+        "type": 0.0,
+        "value": "Social",
+        "count": 995.0
+      },
+      {
+        "type": 0.0,
+        "value": "Spirituality",
+        "count": 1811.0
+      },
+      {
+        "type": 0.0,
+        "value": "ThoughtfulLearning",
+        "count": 357.0
+      },
+      {
+        "type": 0.0,
+        "value": "Unknown",
+        "count": 347.0
+      }
+    ],
+    "BranchId": [
+      {
+        "type": 0.0,
+        "value": 260712.0,
+        "count": 4464.0
+      },
+      {
+        "type": 0.0,
+        "value": 261107.0,
+        "count": 1877.0
+      }
+    ],
+    "CategoryIds": [
+      {
+        "type": 0.0,
+        "value": "13532",
+        "count": 3.0
+      },
+      {
+        "type": 0.0,
+        "value": "13533",
+        "count": 4.0
+      },
+      {
+        "type": 0.0,
+        "value": "13534",
+        "count": 1.0
+      },
+      {
+        "type": 0.0,
+        "value": "13535",
+        "count": 4.0
+      },
+      {
+        "type": 0.0,
+        "value": "13571",
+        "count": 3.0
+      },
+      {
+        "type": 0.0,
+        "value": "13572",
+        "count": 1.0
+      },
+      {
+        "type": 0.0,
+        "value": "13574",
+        "count": 3.0
+      },
+      {
+        "type": 0.0,
+        "value": "13845",
+        "count": 2.0
+      }
+    ],
+    "BenefitNames": [
+      {
+        "type": 0.0,
+        "value": "Credit",
+        "count": 23.0
+      },
+      {
+        "type": 0.0,
+        "value": "Free Food",
+        "count": 534.0
+      },
+      {
+        "type": 0.0,
+        "value": "Free Stuff",
+        "count": 229.0
+      },
+      {
+        "type": 0.0,
+        "value": "Merchandise",
+        "count": 1.0
+      }
+    ]
+  },
+  "value": [
+    {
+      "id": "4189350",
+      "institutionId": 5040.0,
+      "organizationId": 262756.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Hip Hop Alliance",
+      "organizationNames": [],
+      "name": "Hip Hop Concert featuring Tut",
+      "description": "\u003cp\u003eRapper, Tut, will be joining us for an unforgettable performance at Falstaffs!\u003c/p\u003e\r\n",
+      "location": "Falstaffs",
+      "startsOn": "2015-12-12T00:00:00+00:00",
+      "endsOn": "2015-12-12T03:00:00+00:00",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4189404",
+      "institutionId": 5040.0,
+      "organizationId": 262777.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Women in Business",
+      "organizationProfilePicture": "94a83d1d-4f1f-4ac7-a0c4-9d387e853be7ed3951c7-75a5-4cf5-8138-8b4ca5cd8de3.png",
+      "organizationNames": [],
+      "name": "Wharton Women Business Conference 2016",
+      "description": "\u003cp\u003eThe Business Conference is Wharton Women’s cornerstone spring event. The conference’s objective is to facilitate participant learning by listening to the thoughts, advice, and experiences of successful female business leaders. The topics of discussion range from female leadership, strategies for success, female innovation, work-life balance, and more! Each year the conference attracts approximately 150 female students from the University of Pennsylvania and universities on the east coast. Skidmore Women in Business has a close relationship with the Wharton Women\u0027s Executive Board and looks forward to sharing best practices in 2016.\u003c/p\u003e\r\n",
+      "location": "Huntsman Hall, The University of Pennsylvania, Philadelphia, PA 19104",
+      "startsOn": "2016-01-29T05:00:00+00:00",
+      "endsOn": "2016-01-29T05:00:00+00:00",
+      "imagePath": "ab6fe3b2-f366-45e5-8ec9-afad3cc72c97f4c3d149-bb02-4166-8317-0364feb9d7d1..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4189258",
+      "institutionId": 5040.0,
+      "organizationId": 262777.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Women in Business",
+      "organizationProfilePicture": "94a83d1d-4f1f-4ac7-a0c4-9d387e853be7ed3951c7-75a5-4cf5-8138-8b4ca5cd8de3.png",
+      "organizationNames": [],
+      "name": "WIB Interest Meeting",
+      "description": "\u003cp\u003eWe will be holding our first general meeting of the Spring Semester to welcome back current as well as new members! Stop by and meet a tight-knit and supportive community of students who share a passion for different areas of business.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cspan style\u003d\"font-size: 1.1rem; line-height: 1.6;\"\u003eWe have so many events planned out for this semester ranging from collegiate conferences and WIB Talks featuring guest speakers\u003c/span\u003e\u003cspan style\u003d\"font-size: 1.1rem; line-height: 1.6;\"\u003e to themed celebrations and awesome networking opportunities.\u003c/span\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eCome on in to check out what the WIB calendar holds in store for you! Refreshments will be served.\u003c/p\u003e\r\n",
+      "location": "Tisch 301",
+      "startsOn": "2016-02-01T23:30:00+00:00",
+      "endsOn": "2016-02-02T00:30:00+00:00",
+      "imagePath": "d14b8d39-5ecc-4cb7-a636-0593125086df6aacc260-034f-45c9-82c7-4bc6a21bdd79..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4189498",
+      "institutionId": 5040.0,
+      "organizationId": 262777.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Women in Business",
+      "organizationProfilePicture": "94a83d1d-4f1f-4ac7-a0c4-9d387e853be7ed3951c7-75a5-4cf5-8138-8b4ca5cd8de3.png",
+      "organizationNames": [],
+      "name": "WIB Talk with Maria Littlefield",
+      "description": "\u003cp\u003eJoin us Wednesday evening for our 1st WIB Talk of 2016 with Skidmore alumna, Maria Littlefield!\u003c/p\u003e\r\n\r\n\u003cp\u003eMaria Littlefield is the Co-Founder and President of Owl’s Brew, a tea crafted for cocktails, and a partner in sister company, Brew Lab Tea, which specializes in creating artisanal custom tea blends.\u003c/p\u003e\r\n\r\n\u003cp\u003eIn 2014, Maria was selected by the Specialty Food Association as “35 under 35”, among food and beverage entrepreneurs. Maria is the co-author of “Wise Cocktails”, a book about tea cocktails, which was published by Rodale in October 2015. Previously she was the Director of Integrated Marketing at a boutique NYC based firm.\u003c/p\u003e\r\n\r\n\u003cp\u003eStop by Tisch 302 to see what Maria has to say. You will not want to miss out on this opportunity!\u003c/p\u003e\r\n\r\n\u003cp\u003e \u003c/p\u003e\r\n",
+      "location": "Tisch 302",
+      "startsOn": "2016-02-03T23:30:00+00:00",
+      "endsOn": "2016-02-04T00:30:00+00:00",
+      "imagePath": "574ca4f1-725e-4a17-8ca9-06ad5f0d712a62b3715c-42b5-4efc-8d16-169fd15478c5..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4189330",
+      "institutionId": 5040.0,
+      "organizationId": 262820.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "WSPN Radio",
+      "organizationProfilePicture": "4ed43508-9aed-4c4a-a7d5-493171af4e0dfef9b304-4fdb-4a2a-9ff4-2ecd6a3255af.jpg",
+      "organizationNames": [],
+      "name": "WSPN Big Meeting",
+      "description": "\u003cp\u003eInterested in your own radio show? Have a friend join you or do a show solo. Either way, come to Gannett at 8pm on Wednesday (2/3). Come get acquainted with the board, fellow student DJs and our community DJs.\u003cbr\u003e\r\n\u003cbr\u003e\r\nATTENTION: This is the only time to pick up an application even if you have had a show in the past. If you have a conflict with this date and time please email Rebecca at rstern2@skidmore.edu about your situation.\u003c/p\u003e\r\n",
+      "location": "Gannett Auditorium ",
+      "startsOn": "2016-02-04T01:00:00+00:00",
+      "endsOn": "2016-02-04T02:00:00+00:00",
+      "imagePath": "b4ea7d0a-90f4-4acc-8644-2c4f85f63b3ec032334b-779a-4a52-91ef-e5c5888be51f..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4190040",
+      "institutionId": 5040.0,
+      "organizationId": 262891.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Outing Club",
+      "organizationProfilePicture": "5943d7dd-4b31-413f-8943-bac47129396346191010-c336-4bcf-9847-77fb6f9c6b5b.png",
+      "organizationNames": [],
+      "name": "Moreau State Park Jaunt",
+      "description": "\u003cp\u003e \u003c/p\u003e\r\n",
+      "location": "Moreau Lake State Park",
+      "startsOn": "2016-02-07T14:30:00+00:00",
+      "endsOn": "2016-02-07T15:30:00+00:00",
+      "imagePath": "26aa75fe-c7e2-42e1-a7a4-dda3fc81808d4a275285-e3f0-4b0e-98f6-62870b64978a..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4189464",
+      "institutionId": 5040.0,
+      "organizationId": 262777.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Women in Business",
+      "organizationProfilePicture": "94a83d1d-4f1f-4ac7-a0c4-9d387e853be7ed3951c7-75a5-4cf5-8138-8b4ca5cd8de3.png",
+      "organizationNames": [],
+      "name": "Social Entrepreneurship Workshop \u0026 Leadership House Tour",
+      "description": "\u003cp\u003eTo all our lovely members of WIB,\u003c/p\u003e\r\n\r\n\u003cp\u003eWe are so excited to have Cyrus Boga come onto our campus to hold a workshop!\u003c/p\u003e\r\n\r\n\u003cp\u003eNot only is Cyrus a Skidmore dad, but he is also the CEO of Novamaya and Campus Properties LLC, both which serve college students like you! He has straddled different fields throughout his career ranging from investment banking and corporate finance to multimillion dollar social entrepreneurial ventures. This workshop is aimed to provide all with a greater understanding of different aspects of social entrepreneurship.\u003c/p\u003e\r\n\r\n\u003cp\u003eThe workshop will be followed up with a tour of the Leadership House located 5 minutes away from Skidmore! It is available for the 2016-2017 school year as well as the summer.\u003c/p\u003e\r\n\r\n\u003cp\u003eTo top it off, you will have the opportunity to to intern for either of Cyrus\u0027 business remotely for $12+/hour per a partnership which has already been set up with the CDC!\u003c/p\u003e\r\n\r\n\u003cp\u003eJoin us on Monday night to learn more about social entrepreneurship and opportunities in the Leadership House.\u003c/p\u003e\r\n",
+      "location": "Tisch 301",
+      "startsOn": "2016-02-08T23:30:00+00:00",
+      "endsOn": "2016-02-09T00:30:00+00:00",
+      "imagePath": "4ab23aec-45e3-4f52-84f2-c86467d32a3d230d0e63-83e2-4c02-874e-569803ea6f20..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4189302",
+      "institutionId": 5040.0,
+      "organizationId": 262777.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Women in Business",
+      "organizationProfilePicture": "94a83d1d-4f1f-4ac7-a0c4-9d387e853be7ed3951c7-75a5-4cf5-8138-8b4ca5cd8de3.png",
+      "organizationNames": [],
+      "name": "The Confidence Gap, Presented by Vanderbilt’s Owen Graduate School of Management",
+      "description": "\u003cp\u003eMembers of WIB,\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cbr\u003e\r\nProfessor Cherrie Clark, Professor of Management and Program Director for Vanderbilt\u0027s MSF program, will host a brief discussion on \"The Confidence Gap\". Following Professor Clark\u0027s presentation, representatives from Vanderbilt\u0027s Owen Graduate School of Management will present a short overview of two programs: Accelerator - Vanderbilt Summer Business Institute and the Master of Accountancy. \u003cbr\u003e\r\n \u003cbr\u003e\r\nRSVP encouraged, but not required:  https://apply.owen.vanderbilt.edu/register/skidmore\u003cbr\u003e\r\n \u003cbr\u003e\r\nIf you are unable to make the presentation, Greg Harvey (Accelerator) will be available for one-on-one informational meetings on Wednesday, February 10 from 2:30 - 4:30 PM. Please e-mail Greg at greg.harvey@owen.vanderbilt.edu to schedule a ten-minute meeting.\u003cbr\u003e\r\n\u003cbr\u003e\r\nEmily Cochran (MAcc) will be available for one-on-one meetings to learn more about the benefits of Vanderbilt\u0027s Master of Accountancy program on Thursday, February 11 from 9:30 - 11:30 AM. Please e-mail Emily atemily.cochran@owen.vanderbilt.edu to schedule a short meeting.\u003cbr\u003e\r\n \u003cbr\u003e\r\nCo-sponsored by Skidmore Women in Business and the Career Development Center\u003cbr\u003e\r\n \u003c/p\u003e\r\n",
+      "location": "Ladd 307",
+      "startsOn": "2016-02-10T22:30:00+00:00",
+      "endsOn": "2016-02-10T23:30:00+00:00",
+      "imagePath": "f04d01e4-091f-456f-b6d9-808173779e2edbb555b2-6527-4c95-a0be-3a131518e047..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4190073",
+      "institutionId": 5040.0,
+      "organizationId": 262870.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Chess Club",
+      "organizationProfilePicture": "32473936-c74b-4b24-82c2-cef991b4e7132cea0400-342b-4aa3-8636-302053131683.png",
+      "organizationNames": [],
+      "name": "Weekly Chess Club Meeting",
+      "description": "\u003cp\u003eTISCH 208 COME AND CHILL!!!! 7-9 PM EVERY THURSDAY\u003c/p\u003e\r\n",
+      "location": "Tisch 208",
+      "startsOn": "2016-02-12T00:00:00+00:00",
+      "endsOn": "2016-02-12T02:00:00+00:00",
+      "imagePath": "411e84d8-0c42-4cfe-a85a-a6e5197fc67c144dd475-5138-4db8-acef-d5a5c533027c..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    },
+    {
+      "id": "4189978",
+      "institutionId": 5040.0,
+      "organizationId": 262777.0,
+      "organizationIds": [],
+      "branchId": 260712.0,
+      "branchIds": [],
+      "organizationName": "Women in Business",
+      "organizationProfilePicture": "94a83d1d-4f1f-4ac7-a0c4-9d387e853be7ed3951c7-75a5-4cf5-8138-8b4ca5cd8de3.png",
+      "organizationNames": [],
+      "name": "Galentine\u0027s Day Celebration",
+      "description": "\u003cp\u003eHello there,\u003c/p\u003e\r\n\r\n\u003cp\u003eWe know you\u0027ve got a lot to do tomorrow night. Let\u0027s face it, this is a busy week. But why not take a break? Why not join Women in Business for a fun filled meeting and a continuation of Valentine\u0027s Day? \u003cbr\u003e\r\n\u003cbr\u003e\r\nBefore making your way over to Tisch 301 at 6:30 p.m for our wonderful WIB meeting, stop by the second floor of DHall for the internship and major fair, sponsored by the Skidmore College Career Development Center. (This event begins at 5 p.m.)\u003cbr\u003e\r\n\u003cbr\u003e\r\nHope to see you there. \u003cbr\u003e\r\nCheers,\u003cbr\u003e\r\nThe Executive Board\u003c/p\u003e\r\n",
+      "location": "Tisch 301",
+      "startsOn": "2016-02-15T23:30:00+00:00",
+      "endsOn": "2016-02-16T00:30:00+00:00",
+      "imagePath": "aef24754-6471-469e-a30f-dff3408f25b1db20fcc8-70be-4034-875f-7f4400738970..jpg",
+      "theme": "Unknown",
+      "categoryIds": [],
+      "categoryNames": [],
+      "benefitNames": [],
+      "visibility": "Public",
+      "status": "Approved",
+      "@search.score": 1.0
+    }
+  ]
+}
